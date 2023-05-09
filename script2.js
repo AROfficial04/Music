@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Alan Walker - Dreamer", filePath: "ncs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Coopex, KHEMIS - If Looks Can Kill", filePath: "ncs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Habibi( Ricky Rich,Dardan) Normal to Slow  Bass Boosted ", filePath: "ncs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Gasolina, Cochinear, Dile, Ella Me Levanto, Ven Bailalo, Old School", filePath: "ncs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "NEFFEX - Grateful ", filePath: "ncs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Unknown Brain x Rival - Control ", filePath: "ncs/6.mp3", coverPath: "covers/6.jpg"},
-    {songName: "VØJ & ATSMXN - Blade Fury", filePath: "ncs/7.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Bhula Dena - Salam-e-Ishq", filePath: "ncs/8.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Tumhari Kasam - Salam-e-Ishq", filePath: "ncs/9.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Na Jaana - Salam-e-Ishq", filePath: "ncs/10.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Alan Walker - Dreamer", filePath: "ncm/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Coopex, KHEMIS - If Looks Can Kill", filePath: "ncm/2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Habibi( Ricky Rich,Dardan) Normal to Slow  Bass Boosted ", filePath: "ncm/3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Gasolina, Cochinear, Dile, Ella Me Levanto, Ven Bailalo, Old School", filePath: "ncm/4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "NEFFEX - Grateful ", filePath: "ncm/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Unknown Brain x Rival - Control ", filePath: "ncm/6.mp3", coverPath: "covers/6.jpg"},
+    {songName: "VØJ & ATSMXN - Blade Fury", filePath: "ncm/7.mp3", coverPath: "covers/7.jpg"},
+    {songName: "Bhula Dena - Salam-e-Ishq", filePath: "ncm/8.mp3", coverPath: "covers/8.jpg"},
+    {songName: "Tumhari Kasam - Salam-e-Ishq", filePath: "ncm/9.mp3", coverPath: "covers/9.jpg"},
+    {songName: "Na Jaana - Salam-e-Ishq", filePath: "ncm/10.mp3", coverPath: "covers/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
